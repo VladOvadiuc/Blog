@@ -1,0 +1,241 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+body{background-color: #f2f2f2;
+
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+.container-fluid{
+	background-color: white; 
+    box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.74);
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+}
+#sidebarCollapse{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+
+}
+#sidebar.active {
+    margin-left: 0;
+}
+.spacing{
+    height: 20px;
+}
+
+#sidebar {
+    margin-left: -250px;
+    background: #1aa3ff;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #1aa3ff;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: white;
+}
+#sidebar ul li a:hover {
+    color: white;
+    background: #1aa3ff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: white;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: white;
+}
+
+
+#submit-form{
+    width: 100%;
+}
+
+#text-poza {
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+  color: white;
+
+}
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+.container{
+    margin-top:20px; 
+}
+
+.fa-user{
+  margin-top: 5px;
+    font-size: 40px;
+}
+#work-container{
+  width: 55%;
+
+  padding: 30px;
+}
+#welcome-container{
+  width: 100%;
+  position: relative;
+}
+#rand-buton1
+{
+  position: absolute;
+  bottom: 20px;
+}
+#rand-buton3
+{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+#rand-buton2
+{
+  position: absolute;
+  bottom: 20px;
+  left: 20%;
+}
+
+#formular{
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px;
+}
+#parola{
+  width: 100%;
+  margin-top: 15px;
+}
+.fa-bars{
+  font-size: 25px;
+  background-color: #1aa3ff;
+  color: white;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.fa-sign-out-alt{
+  font-size: 25px;
+  background-color: #1aa3ff;
+  color: white;
+  padding: 5px 5px;
+  margin-top: 4px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#alerta-send{
+  width: 100%;
+  margin-top: 5px;
+}
+mark {
+  background-color: #b3d9ff;
+  color: black;
+}
+
+input[type=submit] {
+  background-color: #1aa3ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=button] {
+  background-color: #1aa3ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.a1{
+    visibility: visible;
+    animation-delay: 0.1s;
+    animation-name: fadeInDown;
+}
+.a2{
+    visibility: visible;
+    animation-delay: 0.2s;
+    animation-name: fadeInDown;
+}
+
+.a3{
+    visibility: visible;
+    animation-delay: 0.3s;
+    animation-name: fadeInDown;
+}
+
+.a4{
+    visibility: visible;
+    animation-delay: 0.4s;
+    animation-name: fadeInDown;
+}
+
+.a5{
+    visibility: visible;
+    animation-delay: 0.5s;
+    animation-name: fadeInDown;
+}
+.a6{
+    visibility: visible;
+    animation-delay: 0.6s;
+    animation-name: fadeInDown;
+}
+
+element.style {
+    visibility: visible;
+    animation-name: fadeIn;
+}
+
+.fadeIn {
+
+    animation-name: fadeIn;
+}
+
+
+.animated {
+
+    animation-duration: 1s;
+    animation-fill-mode: both;
+} 
+

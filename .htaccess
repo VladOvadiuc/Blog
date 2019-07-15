@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteRule \.(gif|jpg|png|css|js|inc\.php)$ - [L]
+RewriteRule ^entry/?$ entry.php [NC,L]
+RewriteRule ^entry/(\w+)/([\w-]+) entry.php?page=$1&url=$2 [NC,L]
+
+
+RewriteRule ^hello/?$ hello.php [NC,L]
+RewriteRule ^hello/(\w+)(|/)$ hello.php?page=$1 [NC,L]
+RewriteRule ^hello/(\w+)/?$ hello.php?page=$1 [NC,L]
+RewriteRule ^hello/(\w+)/([\w-]+) hello.php?page=$1&url=$2 
